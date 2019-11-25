@@ -1,0 +1,258 @@
+    1  ls
+    2  su harish
+    3  cd
+    4  sudo yum install jenkins
+    5  clear
+    6  sudo wget -0 /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    7  sudo wget -o /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    8  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    9  yum -y groups install "GNOME Desktop"
+   10  startx
+   11  yum install jenkins
+   12  jenkins --version
+   13  java --version
+   14  java -version
+   15  jenkins -version
+   16  sudo service jenkins status
+   17  clear
+   18  java -version
+   19  nmcli
+   20  ping www.google.com
+   21  ip a
+   22  systemctl start jenkins
+   23  sudo service jenkins status
+   24  ip a
+   25  clear
+   26  sudo service jenkins status
+   27  systemctl enable jenkins
+   28  ip a
+   29  systemctl status sshd
+   30  sudo service jenkins status
+   31  ip a
+   32  ipconfig
+   33  nmcli
+   34  systemctl stop firewalld
+   35  systemctl start firewalld
+   36  firewall-cmd --add-port=8080/tcp --permanent
+   37  fiewall-cmd --add-service=http --permanent
+   38  firewall-cmd --add-service=http --permanent
+   39  firewall-cmd --reload
+   40  cat /var/lib/jenkins/secrets/initialAdminPassword
+   41  history
+   42  clear
+   43  <html>
+   44  <head>
+   45  <title>Page Title</title>
+   46  </head>
+   47  <body>
+   48  <h1>This is a Heading</h1>
+   49  <p>This is a paragraph.</p>
+   50  </body>
+   51  </html>
+   52  cat /var/lib/jenkins/secrets/initialAdminPassword
+   53  git --version
+   54  ls
+   55  su harish
+   56  cd
+   57  visudo
+   58  cd devops
+   59  cd /home/harish/src/devops
+   60  git init
+   61  vi http.sh
+   62  git add http.sh
+   63  git commit -m"chagen" http.sh
+   64  git remote add origin "https://github.com/harigowda23/jenkins.git"
+   65  git push origin master
+   66  git remote add origin "https://github.com/harigowda23/jenkins.git"
+   67  git push origin master
+   68  git pull origin master
+   69  git merge master
+   70  git pull origin master --allow-unrelated-histories
+   71  git commit -a
+   72  git pull origin master
+   73  git push origin master
+   74  startx
+   75  ls
+   76  java -version
+   77  ls
+   78  mkdir Devops
+   79  cd Devops/
+   80  git init
+   81  git pull origin master
+   82  cat>new.txt
+   83  git add new.txt
+   84  git commit -m "new file" new.txt
+   85  startx
+   86  ls
+   87  cd Devops/
+   88  ls
+   89  git add remote origin "https://github.com/harigowda23/jenkins.git"
+   90  git remote add origin "https://github.com/harigowda23/jenkins.git"
+   91  git push origin master
+   92  git pull origin master
+   93  ls
+   94  git push origin master
+   95  sudo service jenkins status
+   96  firewall-cmd --list-all
+   97  sudo systemcrl enable jenikns service
+   98  sudo systemcrl enable jenikns.service
+   99  sudo systemctl enable jenikns.service
+  100  clear
+  101  cd
+  102  yum --enablerepo=extras install epel-release
+  103  yum install -y yum-utils
+  104  yum install device-mapper-persistent-data lvm2
+  105  yum-config-manager --add-repo
+  106  yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  107  yum-config-manager --enable docker-ce-nightly
+  108  yum-config-manager --enable docker-ce-test
+  109  yum install docker-ce docker-ce-cli containerd.io
+  110  systemctl enable docker
+  111  systemctl start docker
+  112  systemctl enable docker
+  113  docker images
+  114  docker run -dit --name WebApp -p 8090:80 -v /usr/local/apache2/htdocs/ httpd:2.
+  115  docker run -dit --name WebApp -p 8090:80 -v /usr/local/apache2/htdocs/ httpd:2.4
+  116  docker images
+  117  ifconfig
+  118  history
+  119  docker images
+  120  docker ps
+  121  dcoker exec 6fe12c7b0c5b ls
+  122  docker exec 6fe12c7b0c5b ls
+  123  docker exec 6fe12c7b0c5b pwd
+  124  docker images
+  125  docker stop 19459a872194
+  126  docker ps
+  127  docker stop 6fe12c7b0c5b
+  128  history
+  129  clear
+  130  ipconfig
+  131  ls
+  132  systemctl status docker
+  133  ipconfig
+  134  ipconfig -a
+  135  ip a
+  136  clear
+  137  systemctl start docker
+  138  systemctl enable docker
+  139  docker images
+  140  docker ps
+  141  firewall-cmd --list-all
+  142  docker run -dit --name WebApp -p 8090:80 -v /usr/local/apache2/htdocs/ httpd:2.4
+  143  docker run
+  144  docker run -dit --name WebsApp -p 8090:80 -v /usr/local/apache2/htdocs/ httpd:2.4
+  145  docker ps
+  146  docker images
+  147  docker ps
+  148  docker ps -a
+  149  ps tree
+  150  pstree
+  151  docker pull chuanwen/cowsay
+  152  docker images
+  153  docker ps
+  154  docker run d9ca6614554a
+  155  docker ps -a
+  156  docker pull lherrera/cowsay
+  157  docker images
+  158  docker run lherrera/cowsay
+  159  docker pull ubuntu
+  160  docker images
+  161  docker ps -a
+  162  docker pull jenkins
+  163  docker images
+  164  docker stop 19459a872194
+  165  docker ps
+  166  docker stop 4bbaf008d606
+  167  docker ps -a
+  168  docker ps
+  169  exit
+  170  systemctl status docker
+  171  docker images
+  172  ps
+  173  docker ps
+  174  history
+  175  startx
+  176  ls 
+  177  cd images/
+  178  ls
+  179  cat Dockerfile
+  180  vi Dockerfile
+  181  docker images
+  182  docker run -it myimage
+  183  docker ps -a
+  184  docker images
+  185  docker image inspect httpd
+  186  docker inspect httpd
+  187  docker run -it httpd
+  188  docker images
+  189  docker run -dit --name WebdApp -p 8090:80 -v /usr/local/apache2/htdocs/ httpd:2.4
+  190  ip -a
+  191  ls
+  192  vi Dcokerfile
+  193  cat Dockerfile
+  194  clear
+  195  docker images
+  196  ipconfig
+  197  ipconfig -a
+  198  docker run -dit ubuntu
+  199  docker run -dit ubuntu /bin/bash
+  200  docker ps
+  201  ip -a
+  202  docker ps
+  203  docker exec -it 49cad8a15309 ls /etc
+  204  docker ps
+  205  ifconfig
+  206  docker ps
+  207  docker exec -it 49cad8a15309 /bin/bash
+  208  docker ps
+  209  docker stop 49cad8a15309
+  210  docker ps
+  211  docker stop 9b179c2cd209
+  212  docker ps
+  213  docker ps -a
+  214  docker container prune
+  215  docker images
+  216  docker ps 
+  217  docker ps -1
+  218  docker ps -a
+  219  docker images
+  220  docker rmi 3aebdb5589d2
+  221  docker ps
+  222  ifconfig
+  223  docker images
+  224  docker inspect ubuntu
+  225  docker images
+  226  docker ps
+  227  docker run -dit --name Web1 -p 81:80 -v /usr/local/apache2/htdocs/ httpd:2.4
+  228  docker ps 
+  229  cd cd
+  230  cd
+  231  ls
+  232  cd Devops/
+  233  ls
+  234  cp page.html 2aff5fd4d9fd:/usr/local/apache2/htdocs/index.html
+  235  /usr/local/apache2/htdocs
+  236  cd /usr/local/apache2/htdocs
+  237  docker exec -it 2aff5fd4d9fd
+  238  docker exec  2aff5fd4d9fd ls
+  239  cd htdocs
+  240  cd /usr/local/apache2/htdocs
+  241  ls
+  242  docker cp page.html 2aff5fd4d9fd:/usr/local/apache2/htdocs/index.html
+  243  docker commit 2aff5fd4d9fd web2 -v
+  244  docker images
+  245  docker ps
+  246  docker commit 2aff5fd4d9fd web2 -v
+  247  docker images
+  248  docker ps
+  249  docker commit 2aff5fd4d9fd Web2
+  250  docker images
+  251  docker commit 2aff5fd4d9fd web22
+  252  docker images
+  253  docker inspect web22
+  254  docker ps
+  255  docker images
+  256  docker inspect httpd
+  257  history
+  258  history >> today.txt

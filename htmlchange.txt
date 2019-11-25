@@ -1,0 +1,21 @@
+mkdir docker-apche
+cd docker-apche
+
+==>Create another directory within docker-apache/ to store your HTML, CSS, Javascript, and any other files you want accessible to the docker container.
+
+mkdir html
+
+==>Now create a dockerfile to define the container insdie docker-apache folder
+
+gedit dockerfile &
+==>insdie the file copy below lines
+FROM httpd:2.4
+COPY ./html/ /usr/local/apache2/htdocs/
+
+==>Now build the docker container:
+
+sudo docker build -t apache .
+
+docker images
+
+sudo docker run -dit --name myapache -p 80:80 --mount source=complete path/html,target=/usr/local/apache2/htdocs,type=bind apache
